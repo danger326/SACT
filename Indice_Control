@@ -1,0 +1,107 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{enumerate}
+\setstretch{1.5}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.jpg}
+\oddsidemargin 0 in
+         \textwidth 6.75 in
+         \topmargin 0 in
+         \headheight 0 in
+         \textheight 9.8 in
+\setcounter{page}{1}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+{\sc{ \huge Instituto Politécnico Nacional}}\\
+{ \rm {\huge Escuela Superior de Cómputo }}\\
+\vspace*{2cm}
+{\sc{ \huge ESCOM}}\\
+\vspace*{2cm}
+{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de corrección a tiro"\\ 2014 - B063}}}\\
+\vspace*{2cm}
+
+{\sl {\large {\bf Presentan:} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
+{\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes
+
+\end{center}
+
+\begin{center}
+\vspace*{1 cm}
+{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
+{\huge{\bf \vspace*{0cm}}}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+\section{Planteamiento del problema}
+
+\section{Propuesta de solución}
+
+\section{Justificación}
+
+\section{Objetivo} 
+\subsection{General}
+\subsection{Específicos}
+
+\section{Estado del Arte}
+
+\section{Análisis del sistema} 
+
+\subsection{Análisis del sistema}
+\subsubsection{Requerimientos funcionales}
+\subsubsection{Requerimientos no funcionales}
+
+\subsection{Análisis de Riesgos}
+
+\subsection{Planificación de Riesgos}
+
+\subsection{Lo que vayamos sacando en base al análisis del sistema}
+
+\subsection{Análisis de factibilidad}
+\subsubsection{Análisis de factibilidad técnica de hardware}
+
+\subsubsection{Análisis de factibilidad técnica de software}
+
+\newpage
+\section{Diseño del sistema} 
+
+\subsection{Diseño del sistema}
+
+\subsection{Casos de uso}
+
+\subsubsection{Caso de uso general}
+
+\subsubsection{Descripción de casos de uso}
+
+\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÁS SUB :S}
+
+\subsection{Diagrama de Clases}
+
+\subsubsection{Diagrama de Secuencias}
+
+\section{Implementación}
+\subsubsection{Implementación}
+
+\section{Pruebas}  
+
+\subsubsection{Pruebas}
+
+\subsubsection{Conclusiones y trabajo futuro}
+
+\subsubsection{Referencias Bibliográficas}
+\begin{itemize}
+\item \textbf{http://sunset.usc.edu/COCOMOII/}
+\textbf{cocomo.html}
+\item \textbf{http://www.buet.ac.bd/cse/users/faculty/}
+\textbf{reazahmed/cse307/COCOMO.pptx}
+\end{itemize}
+
+\end{document}  
+
