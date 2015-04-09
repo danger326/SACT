@@ -18,76 +18,77 @@
 \thispagestyle{empty}
 
 \begin{center}
-{\sc{ \huge Instituto Politécnico Nacional}}\\
-{ \rm {\huge Escuela Superior de Cómputo }}\\
+{\sc{ \huge Instituto PolitÃ©cnico Nacional}}\\
+{ \rm {\huge Escuela Superior de CÃ³mputo }}\\
 \vspace*{2cm}
 {\sc{ \huge ESCOM}}\\
 \vspace*{2cm}
-{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de corrección a tiro"\\ 2014 - B063}}}\\
+{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de correcciÃ³n a tiro"\\ 2014 - B063}}}\\
 \vspace*{2cm}
 
-{\sl {\large {\bf Presentan:} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
+{\sl {\large {\bf Presentan:\\} Camarillo HernÃ¡ndez Erik Alberto\\ Cahuantzi RodrÃ­guez Miguel\\ Cruces Caballero SaÃºl David\\ Guerrero Romero Daniel Alberto \\}} 
 {\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes
 
 \end{center}
 
 \begin{center}
 \vspace*{1 cm}
-{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
+{\it{\bf  Carrera: } IngenierÃ­a en Sistemas Computacionales}\\
 {\huge{\bf \vspace*{0cm}}}
 \end{center}
 
 \newpage
 \tableofcontents
 \newpage
-\section{Planteamiento del problema}
-
-\section{Propuesta de solución}
-
-\section{Justificación}
-
+\input{Planteamiento_Problema}
+\input{Propuesta}
+\section{JustificaciÃ³n}
+%\input{JustificaciÃ³n}
 \section{Objetivo} 
 \subsection{General}
-\subsection{Específicos}
+\subsection{EspecÃ­ficos}
 
 \section{Estado del Arte}
+%AsÃ­ se mete un archivo dependiente
+\input{Realidad_Aumentada}
 
-\section{Análisis del sistema} 
 
-\subsection{Análisis del sistema}
+\section{AnÃ¡lisis del sistema} 
+
+\subsection{AnÃ¡lisis del sistema}
 \subsubsection{Requerimientos funcionales}
 \subsubsection{Requerimientos no funcionales}
 
-\subsection{Análisis de Riesgos}
+\subsection{AnÃ¡lisis de Riesgos}
 
-\subsection{Planificación de Riesgos}
+\subsection{PlanificaciÃ³n de Riesgos}
 
-\subsection{Lo que vayamos sacando en base al análisis del sistema}
+\subsection{Lo que vayamos sacando en base al anÃ¡lisis del sistema}
 
-\subsection{Análisis de factibilidad}
-\subsubsection{Análisis de factibilidad técnica de hardware}
+\subsection{AnÃ¡lisis de factibilidad}
+\subsubsection{AnÃ¡lisis de factibilidad tÃ©cnica de hardware}
 
-\subsubsection{Análisis de factibilidad técnica de software}
+\subsubsection{AnÃ¡lisis de factibilidad tÃ©cnica de software}
 
 \newpage
-\section{Diseño del sistema} 
+\section{DiseÃ±o del sistema} 
 
-\subsection{Diseño del sistema}
+\subsection{DiseÃ±o del sistema}
 
 \subsection{Casos de uso}
 
 \subsubsection{Caso de uso general}
 
-\subsubsection{Descripción de casos de uso}
+\subsubsection{DescripciÃ³n de casos de uso}
 
-\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÁS SUB :S}
+\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÃS SUB :S}
 
 \subsection{Diagrama de Clases}
 
 \subsubsection{Diagrama de Secuencias}
 
-\section{Implementación}
-\subsubsection{Implementación}
+\section{ImplementaciÃ³n}
+\subsubsection{ImplementaciÃ³n}
 
 \section{Pruebas}  
 
@@ -95,13 +96,12 @@
 
 \subsubsection{Conclusiones y trabajo futuro}
 
-\subsubsection{Referencias Bibliográficas}
+\subsubsection{Referencias BibliogrÃ¡ficas}
 \begin{itemize}
-\item \textbf{http://sunset.usc.edu/COCOMOII/}
-\textbf{cocomo.html}
-\item \textbf{http://www.buet.ac.bd/cse/users/faculty/}
-\textbf{reazahmed/cse307/COCOMO.pptx}
+\item \textbf{http://www.cedicyt.ipn.mx/RevConversus/Paginas/RealidadAumentada.aspx}
+\item \textbf{http://realidadaumentada.info/tecnologia/}
+\item
+\textbf{http://definicion.de/realidad-aumentada/}
 \end{itemize}
 
 \end{document}  
-
