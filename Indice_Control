@@ -18,22 +18,22 @@
 \thispagestyle{empty}
 
 \begin{center}
-{\sc{ \huge Instituto PolitÃ©cnico Nacional}}\\
-{ \rm {\huge Escuela Superior de CÃ³mputo }}\\
+{\sc{ \huge Instituto Politécnico Nacional}}\\
+{ \rm {\huge Escuela Superior de Cómputo }}\\
 \vspace*{2cm}
 {\sc{ \huge ESCOM}}\\
 \vspace*{2cm}
-{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de correcciÃ³n a tiro"\\ 2014 - B063}}}\\
+{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de corrección a tiro"\\ 2014 - B063}}}\\
 \vspace*{2cm}
 
-{\sl {\large {\bf Presentan:\\} Camarillo HernÃ¡ndez Erik Alberto\\ Cahuantzi RodrÃ­guez Miguel\\ Cruces Caballero SaÃºl David\\ Guerrero Romero Daniel Alberto \\}} 
+{\sl {\large {\bf Presentan:\\} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
 {\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes
 
 \end{center}
 
 \begin{center}
 \vspace*{1 cm}
-{\it{\bf  Carrera: } IngenierÃ­a en Sistemas Computacionales}\\
+{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
 {\huge{\bf \vspace*{0cm}}}
 \end{center}
 
@@ -42,53 +42,53 @@
 \newpage
 \input{Planteamiento_Problema}
 \input{Propuesta}
-\section{JustificaciÃ³n}
-%\input{JustificaciÃ³n}
+\section{Justificación}
+%\input{Justificación}
 \section{Objetivo} 
 \subsection{General}
-\subsection{EspecÃ­ficos}
+\subsection{Específicos}
 
 \section{Estado del Arte}
-%AsÃ­ se mete un archivo dependiente
+%Así se mete un archivo dependiente
 \input{Realidad_Aumentada}
 
 
-\section{AnÃ¡lisis del sistema} 
+\section{Análisis del sistema} 
 
-\subsection{AnÃ¡lisis del sistema}
+\subsection{Análisis del sistema}
 \subsubsection{Requerimientos funcionales}
 \subsubsection{Requerimientos no funcionales}
 
-\subsection{AnÃ¡lisis de Riesgos}
+\subsection{Análisis de Riesgos}
 
-\subsection{PlanificaciÃ³n de Riesgos}
+\subsection{Planificación de Riesgos}
 
-\subsection{Lo que vayamos sacando en base al anÃ¡lisis del sistema}
+\subsection{Lo que vayamos sacando en base al análisis del sistema}
 
-\subsection{AnÃ¡lisis de factibilidad}
-\subsubsection{AnÃ¡lisis de factibilidad tÃ©cnica de hardware}
+\subsection{Análisis de factibilidad}
+\subsubsection{Análisis de factibilidad técnica de hardware}
 
-\subsubsection{AnÃ¡lisis de factibilidad tÃ©cnica de software}
+\subsubsection{Análisis de factibilidad técnica de software}
 
 \newpage
-\section{DiseÃ±o del sistema} 
+\section{Diseño del sistema} 
 
-\subsection{DiseÃ±o del sistema}
+\subsection{Diseño del sistema}
 
 \subsection{Casos de uso}
 
 \subsubsection{Caso de uso general}
 
-\subsubsection{DescripciÃ³n de casos de uso}
+\subsubsection{Descripción de casos de uso}
 
-\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÃS SUB :S}
+\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÁS SUB :S}
 
 \subsection{Diagrama de Clases}
 
 \subsubsection{Diagrama de Secuencias}
 
-\section{ImplementaciÃ³n}
-\subsubsection{ImplementaciÃ³n}
+\section{Implementación}
+\subsubsection{Implementación}
 
 \section{Pruebas}  
 
@@ -96,7 +96,7 @@
 
 \subsubsection{Conclusiones y trabajo futuro}
 
-\subsubsection{Referencias BibliogrÃ¡ficas}
+\subsubsection{Referencias Bibliográficas}
 \begin{itemize}
 \item \textbf{http://www.cedicyt.ipn.mx/RevConversus/Paginas/RealidadAumentada.aspx}
 \item \textbf{http://realidadaumentada.info/tecnologia/}
@@ -105,3 +105,4 @@
 \end{itemize}
 
 \end{document}  
+
