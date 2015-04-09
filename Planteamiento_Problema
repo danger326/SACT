@@ -1,0 +1,18 @@
+\section{Planteamiento del problema}
+Actualmente, cuando se realizan disparos de artillerÃ­a, se cuenta con varios elementos, de los cuales uno es una persona que tiene la funciÃ³n de observar la zona de tiro. Ã‰l encargado de ver en donde caen los impactos para poder realizar las correcciones pertinentes si el disparo no da en el blanco.\\
+
+El personal que realiza la correcciÃ³n la realiza basada en su experiencia, apoyados ya sea en un mapa de papel con el uso de brÃºjula analÃ³gica o a simple vista con binoculares. Esta actividad involucra mucho el criterio humano, el nÃºmero de intentos fallidos es alto provocando un gran consumo de municiones.\\
+
+Por lo tanto, el problema es contar con un sistema automatizado que por medio de la ayuda del procesamiento de imÃ¡genes apoyado de operaciones de sistemas de informaciÃ³n geogrÃ¡fica para realizar el cÃ¡lculo necesario para corregir el siguiente disparo.\\
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{Planteamiento_imagen}
+\caption{Modo de operaciÃ³n actual}
+\label{fig:0}
+\end{figure}
+
+\newpage
+El problema es que a grandes distancias, al entregar las posibles correcciones con error afecta el nuevo cÃ¡lculo de tiro. Ya que un 1 milit de error a 1km son 1 metro de error en el tiro.
+
+Por lo tanto, como solo se cuenta con la experiencia del Observador, existe fallÃ³ en su criterio y la informaciÃ³n que transmite a al personal encargado de realizar los nuevos cÃ¡lculos corregidos con la informaciÃ³n que recibieron del observador, por lo que se ven afectados los cÃ¡lculos que se realizan en esa Ã¡rea. Como consecuencia el siguiente tiro es errÃ³neo.\\
