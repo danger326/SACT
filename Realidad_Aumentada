@@ -1,0 +1,17 @@
+\subsection{Realidad Aumentada}
+\subsubsection{Definición}
+La Realidad Aumentada (RA) consiste en la inclusión de elementos virtuales dentro del universo físico mediante un proceso informático, enriqueciendo la experiencia visual y mejorando la calidad de comunicación.
+De esta manera podemos añadir información visual a la realidad, y crear todo tipo de experiencias interactivas.
+
+\subsubsection{Componentes}
+Los elementos básicos que conforman un sistema de RA son los siguientes: un monitor, una cámara, el software especial de RA y un marcador.\\
+
+El marcador es un símbolo escrito o impreso sobre objetos determinados, que varía desde un código de barras de cualquier producto hasta datos codificados en la superficie de monumentos o edificios.\\
+
+\newpage
+La cámara se encarga de captar esos símbolos y transferirlos al software. Éste interpreta los datos de los marcadores captados por la cámara y los convierte en todo tipo de información:
+\begin{itemize}
+\item Texto
+\item Imágenes fijas
+\item Video en 3D o sonido
+\end{itemize}
