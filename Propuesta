@@ -1,0 +1,56 @@
+\section{Propuesta de solución}
+\textbf{Asistente para cálculo de corrección}
+ 
+Desarrollo de un sistema de cálculo automático de corrección de observación para tiros de artillería.
+
+Desarrollar un sistema que por medio del renderizado 3D de las curvas de nivel (altimetría) en la Tablet del observador, se genere una malla que se sobreponga sobre la imagen tomada de la tableta o posiblemente desde una cámara WiFi de la zona de tiro. Todo esto con el fin de que por medio de realidad aumentada se puedan visualizar tanto objetivos como los impactos realizados (figura 1). 
+
+Asimismo, gracias al renderizado y empalmado de la malla georeferenciada, se pueden realizar correcciones de forma automática (figura 1 y 2).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figura1}
+\caption{Sobreposición de malla 3D sobre imagen tomada de cámara.}
+\label{fig:1}
+\end{figure}
+
+\newpage
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figura2}
+\caption{Cálculo automático de corrección de tiro. .}
+\label{fig:2}
+\end{figure}
+
+Si cada observador cuenta con este sistema se puede mejorar la corrección de tiro al comparar lo visto por cada uno de ellos con lo mostrado por el sistema automatizado para corrección.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figura3}
+\caption{Vista 3D desde central de tiro.}
+\label{fig:3}
+\end{figure}
+
+Con la funcionalidad del envío desde el observador de las correcciones automáticas, el operador de la central puede estar visualizando de forma automática las correcciones que el sistema haga, todo esto ahorrando tiempo para realizar el nuevo tiro.
+
+A continuación se enlistan detalles de la aplicación:
+\begin{itemize}
+\item Capturar la imagen por medio de una cámara WiFi.
+\item Procesar la imagen 2D para obtener los datos del tiro erróneo y por medio de las curvas de nivel obtener los datos exactos de posición.
+\item Obtener las distancias calculadas (X,Y) y enviar esa información al sistema responsable de realizar las correcciones.
+\item Comunicar por medio de la tecnología Wifi, aunque en el área de prueba, las distancias son muy grandes, se usan antenas y la frecuencia es diferente. Sin embargo, esta situación no afecta en nada al sistema, debido que todo se realiza en la capa de aplicación.
+\newpage
+\item El envío de los cálculos obtenidos se realiza con sockets UPD por requerimientos del sistema. La verificación del envío y recepción de mensajes se realizará en capa de aplicación.
+\item Mostrar los resultados en una imagen 3D empleando realidad aumentada.
+\item El principal alcance del proyecto es en la obtención del cálculo de la observación del tiro, es decir, la apreciación de si el tiro cayó X metros a la izquierda o derecha y Y metros si cayó arriba o abajo del objetivo. Para realizar este cálculo se desarrollará el método para su obtención. La perspectiva del problema en torno a lo matemático es:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figura4}
+\caption{Perspectiva de cámara.}
+\label{fig:4}
+\end{figure}
+
+El cálculo de la distancia se tiene pensado hacer con distancia entre dos puntos y teorema de Pitágoras tomando en cuenta lo que nos muestre la información entorno a las curvas de nivel, pero teniendo como variante la posición de la cámara, de tal manera que se resolverá el posible error de paralaje.
+
+\end{itemize}
