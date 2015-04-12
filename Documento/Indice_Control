@@ -42,11 +42,8 @@
 \newpage
 \input{Planteamiento_Problema}
 \input{Propuesta}
-\section{Justificación}
-%\input{Justificación}
-\section{Objetivo} 
-\subsection{General}
-\subsection{Específicos}
+\input{Justificacion}
+\input{Objetivo} 
 
 \section{Estado del Arte}
 %Así se mete un archivo dependiente
@@ -105,4 +102,3 @@
 \end{itemize}
 
 \end{document}  
-
