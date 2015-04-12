@@ -15,3 +15,21 @@ La cámara se encarga de captar esos símbolos y transferirlos al software. Ést
 \item Imágenes fijas
 \item Video en 3D o sonido
 \end{itemize}
+
+\subsection{Milits}
+
+Es una unidad angular, llamada milésima de artillería. Se define como la medida del ángulo central formado por un arco que es 1/6400 de la circunferencia. Por ello, la equivalencia entre grados y milits es: 9 grados = 160 milits.
+
+\subsection{Distancia entre dos puntos}
+Cuando los puntos se encuentran ubicados sobre el eje x o en una recta paralela a este eje, la distancia entre los puntos corresponde al valor absoluto de la diferencia de sus abscisas. Cuando los puntos se encuentran ubicados sobre el eje y o en una recta paralela a este eje, la distancia entre los puntos corresponde al valor absoluto de la diferencia de sus ordenadas.
+Ahora si los puntos se encuentran en cualquier lugar del sistema de coordenadas, la distancia queda determinada por la relación:
+
+\begin{figure}[h!]
+\centering
+\includegraphics{d_entre_2_puntos}
+\caption{Fórmula matemática para el cálculo de distancia entre dos puntos}
+\label{fig:X}
+\end{figure}
+
+Para demostrar esta relación se deben ubicar los puntos A(x1,y1) y B(x2,y2) en el sistema de coordenadas, luego formar un triángulo rectángulo de hipotenusa AB y emplear el teorema de Pitágoras.
+
