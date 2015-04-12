@@ -1,0 +1,10 @@
+\subsection{Objetivo}
+\subsubsection{General}
+Desarrollar un sistema de apoyo en el cálculo para la corrección de datos de tiro, para apoyar al Observador en la corrección del tiro.
+
+\subsubsection{Específicos}
+\begin{itemize}
+\item Desarrollo de sistema en dispositivo móvil para no depender de ubicación fija con la ayuda de una cámara WiFi.
+\item Lograr exactitud en la deducción de distancias de tiro erróneo. (Teniendo claro que un tiro exitoso es aquel impacto dentro de un radio de 100 metros alrededor del objetivo).
+\item Envio de información a la Terminal Central con confirmación de integridad de datos.
+\end{itemize}
