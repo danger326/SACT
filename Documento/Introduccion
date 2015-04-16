@@ -1,0 +1,6 @@
+\chapter{Introducción}
+Cuando se realizan tiros a largas distancias, normalmente el tirador no tiene a simple vista a los objetivos, por lo que requiere de una persona cuya tarea sea la de observar en donde cae el tiro para por medio de la observación que realiza, pueda indicarle al tirador cual fue el error del disparo. Esta medición se realiza en metros, indicando si el tiro cayó a la derecha, a la izquierda, arriba o abajo del objetivo original.\\
+
+La dificultad de esto proviene en que se depende de la experiencia del observador, dejando la observación a un nivel subjetivo, a pesar de que éste cuente con mapas de papel, de brújulas analógicas y de mapas de papel. De este hecho surge la idea de que por medio de un sistema de observación computarizado, se puedan obtener las observaciones acerca de dónde cayó el tiro para su posterior envío al personal que realiza los nuevos cálculos para el nuevo tiro.\\
+\newpage
+Actualmente herramientas como son los Sistemas de Información Geográfica y Realidad Aumentada ayudan a observar el mundo de una manera diferente, por lo que utilizar estas herramientas y aplicarlas en el sistema que se propone en este documento, ayudarán a tener una vista objetiva del problema a resolver.
