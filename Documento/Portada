@@ -1,0 +1,22 @@
+\begin{titlepage}
+\centering
+\includegraphics[scale=0.17]{Primera_Parte/Imagenes/escom-ipn.png} 
+
+\large{Instituto Polit\'ecnico Nacional} 
+\large{\\ Escuela Superior de C\'omputo} 
+
+\vspace{1cm}
+
+\huge {\textbf{Trabajo Terminal\\}}
+\rule{7cm}{3pt} %Linea horizontal
+\large {\\\textbf{"Sistema de apoyo de observación para corrección de tiro"\\ 2014 - B063}}
+
+\vspace{1cm}
+
+{\sl {\large {\bf Presentan:\\} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
+{\sl {\large {\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes Bermejo \\}}
+
+{\sl {\large {\bf Fecha: }}}\\
+
+{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
+\end{titlepage}
