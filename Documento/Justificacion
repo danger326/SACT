@@ -1,6 +1,7 @@
+\section{Justificación}
+No existe un sistema para el apoyo de corrección de disparo en el país y los sistemas existentes en el mundo son demasiado costosos para el presupuesto del Ejercito Nacional, por lo que con el desarrollo de este proyecto se creará un sistema que automatizará los deberes del observador y el soldado, además de que el Ejército Nacional tendrá su propio sistema proporcionándole autonomía para la mejora de resultados, al igual que disminuye los costos que implica errar disparos.
+
 \newpage
-\subsection{Justificación}
-No existe un sistema para el apoyo de corrección de disparo en el país y los sistemas existentes en el mundo son demasiado costosos para el presupuesto del Ejercito Nacional, por lo que con el desarrollo de este proyecto se creará un sistema que automatizará los deberes del observador y el soldado, además de que el Ejército Nacional tendrá su propio sistema proporcionándole autonomía para la mejora de resultados, al igual que disminuye los costos que implica errar disparos.\\
 
 Por otra parte, con este sistema se reflejarán distintos conocimientos adquiridos en materias tales como:
 \paragraph{Tengo dudas a cerca de los siguientes puntos ya que no se si en realidad vamos a usar todos}
@@ -27,4 +28,3 @@ Y el uso de herramientas nuevas para nosotros como alumnos:
 \item OpenGL
 \item GIS
 \end{itemize}
-
