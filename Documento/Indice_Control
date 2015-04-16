@@ -1,4 +1,4 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,12pt]{report}
 \usepackage[spanish]{babel}
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
@@ -12,77 +12,28 @@
          \topmargin 0 in
          \headheight 0 in
          \textheight 9.8 in
-\setcounter{page}{1}
-
 \begin{document}
-\thispagestyle{empty}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{\'Indice de tablas}
 
-\begin{center}
-{\sc{ \huge Instituto Politécnico Nacional}}\\
-{ \rm {\huge Escuela Superior de Cómputo }}\\
-\vspace*{2cm}
-{\sc{ \huge ESCOM}}\\
-\vspace*{2cm}
-{\Huge{\sf Trabajo Terminal:\\ \textbf{"Sistema de apoyo de corrección a tiro"\\ 2014 - B063}}}\\
-\vspace*{2cm}
-
-{\sl {\large {\bf Presentan:\\} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
-{\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes
-
-\end{center}
-
-\begin{center}
-\vspace*{1 cm}
-{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
-{\huge{\bf \vspace*{0cm}}}
-\end{center}
+\input{./Primera_Parte/Portada}
 
 \newpage
-\tableofcontents
+\include{./Primera_Parte/Indice}
 \newpage
-\input{Planteamiento_Problema}
-\input{Propuesta}
-\input{Justificacion}
-\input{Objetivo} 
+\include{./Primera_Parte/Resumen}
+\include{./Primera_Parte/Resena}
+\input{./Primera_Parte/Introduccion}
+\input{./Primera_Parte/Planteamiento_Problema}
+\input{./Primera_Parte/Justificacion}
+\input{./Primera_Parte/Objetivo} 
+\input{./Primera_Parte/Propuesta}
+\input{./Primera_Parte/Alcances_y_Limites}
+\input{./Primera_Parte/Marco_Teorico}
+\input{./Primera_Parte/Estado_Arte}
 
-\section{Estado del Arte}
-%Así se mete un archivo dependiente
-\input{Realidad_Aumentada}
-
-
-\section{Análisis del sistema} 
-
-\subsection{Análisis del sistema}
-\subsubsection{Requerimientos funcionales}
-\subsubsection{Requerimientos no funcionales}
-
-\subsection{Análisis de Riesgos}
-
-\subsection{Planificación de Riesgos}
-
-\subsection{Lo que vayamos sacando en base al análisis del sistema}
-
-\subsection{Análisis de factibilidad}
-\subsubsection{Análisis de factibilidad técnica de hardware}
-
-\subsubsection{Análisis de factibilidad técnica de software}
-
-\newpage
-\section{Diseño del sistema} 
-
-\subsection{Diseño del sistema}
-
-\subsection{Casos de uso}
-
-\subsubsection{Caso de uso general}
-
-\subsubsection{Descripción de casos de uso}
-
-\paragraph{Todos los casos de uso que salgan //SE TIENEN QUE VER EN EL INDICE PERO NO SE COMO HACER MÁS SUB :S}
-
-\subsection{Diagrama de Clases}
-
-\subsubsection{Diagrama de Secuencias}
+\input{./Segunda_Parte/Analisis_Diseno}
+\input{./Segunda_Parte/Diseno_Sistema}
 
 \section{Implementación}
 \subsubsection{Implementación}
@@ -95,10 +46,16 @@
 
 \subsubsection{Referencias Bibliográficas}
 \begin{itemize}
-\item \textbf{http://www.cedicyt.ipn.mx/RevConversus/Paginas/RealidadAumentada.aspx}
-\item \textbf{http://realidadaumentada.info/tecnologia/}
+\item \textbf{[1] http://www.cedicyt.ipn.mx/RevConversus/Paginas/RealidadAumentada.aspx}
+\item \textbf{[2] http://realidadaumentada.info/tecnologia/}
 \item
-\textbf{http://definicion.de/realidad-aumentada/}
+\textbf{[3] http://definicion.de/realidad-aumentada/}
+\item
+\textbf{[4] Michael F. Goodchild (1998). What is Geographic Information Science?. [Online]. Recuperado el 26 de septiembre de 2014 de: http://www.ncgia.ucsb.edu/giscc/units/u002/u002.html }
+\item
+\textbf{[5] Niles, Nathan O. "Trigonometría plana" Limusa Noriega Editores, 2da edición, México, 2000. }
+\item
+\textbf{[6] Poner una referencia para distiancia entre dos puntos }
 \end{itemize}
 
 \end{document}  
