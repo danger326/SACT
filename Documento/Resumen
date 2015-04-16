@@ -1,0 +1,7 @@
+\begin{abstract}
+
+Se desarrollará un sistema de cómputo para la asistencia para el cálculo en altitud y orientación de un tiro de artillería, por medio de procesamiento de imagen, cálculos de re-direccionamiento y realidad aumentada. Dicho sistema, generará la renderización de superficie basado en curvas de nivel (altimetría) y llevará a cabo un cálculo de coordenadas de objetivo con respecto a un disparo anterior, para lo cual se plasmará una malla auxiliar optimizando la extracción de características para cálculos principales y posteriormente proporcionar el cálculo en distancia con respecto al objetivo por medio de un dispositivo móvil.  
+
+\paragraph{Palabras clave –} Procesamiento de imagen, renderización 3D, curvas de nivel, realidad aumentada.
+
+\end{abstract}
