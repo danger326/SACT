@@ -1,0 +1,29 @@
+\section{Diseño del Sistema}
+\section{Identificación de Actores}
+\section{Observador}
+\subsection{Requerimientos Funcionales}
+\begin{itemize}
+\item \textbf{RF1.-} El usuario
+\end{itemize}
+\subsection{Requerimientos no Funcionales}
+\begin{itemize}
+\item \textbf{RNF1.-} El usuario
+\end{itemize}
+\subsection{Reglas de Negocio}
+\begin{itemize}
+\item \textbf{RN.-} El usuario
+\end{itemize}
+\subsection{Casos de Uso}
+\subsection{Nomenclatura de casos de uso}
+\begin{itemize}
+\item OB-CU00.-
+\end{itemize}
+\subsection{OB-CU00: }
+\subsubsection{Resumen}
+\subsubsection{Descripción de caso de uso}
+\subsubsection{Trayectorias principales y alternativas}
+\subsubsection{Diagrama de secuencia}
+\subsubsection{Diagrama de actividad}
+\subsubsection{Pantalla OB-P00}
+
+\section{Diagrama de Clases}
