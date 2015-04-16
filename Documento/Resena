@@ -1,0 +1,21 @@
+\section{Reseña de Capítulos}
+
+Este documento se conforma de seis capítulos que recuperan la esencia del proyecto \textbf{"Sistema de apoyo de observación para corrección de tiro"}. Como un esbozo de lo que se aborda en cada uno de ellos, en este apartado se citan a manera de sinópsis:
+
+\paragraph{Capítulo 1. Introducción}
+Se describen los motivos que dieron origen al desarrollo del Sistema, su justificación como trabajo perteneciente al área de "Sistemas Computacionales", los problemas que debieron ser resuletos y los objetivos tanto generales como particulares propuestos.
+
+\paragraph{Capítulo 2. Marco Teórico}
+La búsqueda y selección de información es una de las tantas habilidades puestas de manifiesto en el desarrollo de este proyecto.
+
+\paragraph{Capítulo 3. Estado del Arte}
+No existen proyectos similares en México actualmente; solo un sistema, hecho es la ESCOM,  con uso de algunos tópicos relacionados con este proyecto, pero si existe una referencia internacional española.
+
+\paragraph{Capítulo 4. Análisis y Diseño}
+En todo desarrollo de software es importante seguir una especificación que permita la expresión  de las capacidades que tendrá y las restricciones funcionales.
+
+\paragraph{Capítulo 5. Implementación}
+En este apartado se documenta el proceso que materializó lo estipulado en el capítulo 4.
+
+\paragraph{Capítulo 6. Pruebas y Resultados}
+Se reportan las pruebas a las que fue sometido el sistema para validar su funcionamiento, cuantificar su rendimiento y verificar el cumplimiento del objetivo general del proyecto.
