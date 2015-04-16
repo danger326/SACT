@@ -9,7 +9,7 @@ Asimismo, gracias al renderizado y empalmado de la malla georeferenciada, se pue
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{figura1}
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura1}
 \caption{Sobreposición de malla 3D sobre imagen tomada de cámara.}
 \label{fig:1}
 \end{figure}
@@ -17,7 +17,7 @@ Asimismo, gracias al renderizado y empalmado de la malla georeferenciada, se pue
 \newpage
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{figura2}
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura2}
 \caption{Cálculo automático de corrección de tiro. .}
 \label{fig:2}
 \end{figure}
@@ -26,7 +26,7 @@ Si cada observador cuenta con este sistema se puede mejorar la corrección de ti
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{figura3}
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura3}
 \caption{Vista 3D desde central de tiro.}
 \label{fig:3}
 \end{figure}
@@ -46,7 +46,7 @@ A continuación se enlistan detalles de la aplicación:
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{figura4}
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura4}
 \caption{Perspectiva de cámara.}
 \label{fig:4}
 \end{figure}
@@ -54,3 +54,4 @@ A continuación se enlistan detalles de la aplicación:
 El cálculo de la distancia se tiene pensado hacer con distancia entre dos puntos y teorema de Pitágoras tomando en cuenta lo que nos muestre la información entorno a las curvas de nivel, pero teniendo como variante la posición de la cámara, de tal manera que se resolverá el posible error de paralaje.
 
 \end{itemize}
+\newpage
