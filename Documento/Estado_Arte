@@ -1,0 +1,44 @@
+\chapter{Estado del Arte}
+La \textbf{SEDENA} desarrollo un proyecto vinculado con la \textbf{UPIITA} en donde participo uno de los directores de este Trabajo Terminal. En este proyecto se desarrolló un módulo que contempla un SIG para el cálculo de tiros, pero las correcciones de cada tiro obtenidas por medio de la experiencia del usuario. De este proyecto surge la presente propuesta que se realiza en este Trabajo Terminal. Por cuestiones de confidencialidad, para mayor información se puede contactar al director de este TT.\\
+
+Un proyecto conocido a nivel mundial desarrollado que realiza esta actividad es el \textbf{"Proyecto TALOS (español)"}.\\
+
+Los sistemas de artillería militar tienen la intención de adquirir un sistema que les ayude a dicha práctica, pero los sistemas actuales no se adaptan a sus necesidades. Si se quisiera uno de estos sistemas se tendrían que cambiar los protocolos ya establecidos.\\ 
+
+Debido a lo anterior se plantea desarrollar un sistema que sugerirá correcciones al disparo, mostrando una imagen en un dispositivo móvil obtenida por medio de su cámara, con los datos obtenidos se realizarán los cálculos de corrección al error de distancia permitiendo direccionar el proyectil para acertar al objetivo.\\
+
+\newpage
+Este proyecto es derivado del proyecto realizado por parte del \textbf{IPN} a la \textbf{SEDENA} en el año de 2013.  
+
+En la siguiente tabla se muestran proyectos comerciales similares al que se desea desarrollar
+\begin{table}[ht]
+\centering % Centra la tabla
+\resizebox{16cm}{!} {
+\begin{tabular}{| l | l | p{5cm} | l | p{5cm} |} % Centrado con dos columnas
+\hline Empresa & Título & Descripción & Costo & Referencia \\ 
+\hline
+\textbf{GMV} & TALOS & En particular, GMV ha realizado la adaptación del sistema para interactuar con los sensores y actuadores del sistema, de forma que pueda recibir los datos de posición y orientación del arma, así como enviar los comandos al sistema para el apuntamiento automático del mismo; todo ello con los resultados del cálculo balístico realizado por TALOS. & Desconocido & Agent VI, (2010). Vi-System. Obtenida el 25 de Septiembre del 2014, de http://www.gmv.com/es/
+Empresa/Comunicacion/Noticias/
+2013/10/TALOS.html  \\ 
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Proyectos Comerciales. \label{tabla}}
+\end{table}
+
+En la siguiente tabla se muestran proyectos realizados dentro del Instituto Politécnico Nacional
+\begin{table}[ht]
+\centering % Centra la tabla
+\resizebox{16cm}{!} {
+\begin{tabular}{| p{4cm} | p{5cm} | l | p{5cm} | l |} % Centrado con dos columnas
+\hline Nombre de proyecto & Lugar/Organización & Año & Autor & Nivel \\ 
+\hline
+\textbf{Sistema táctico para aeronaves de seguridad nacional} & México, Instituto Politécnico Nacional, Escuela Superior de Cómputo & 19-Nov-2014 & Cortéz Reséndiz Alexis, Roa Reyes Edson Jair
+ & Superior \\ 
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Proyectos realizados en el Instituto Politécnico Nacional. \label{tabla}}
+\end{table}
+
+Actualmente, no existen otros proyectos desarrollados de índole similar a este en otras universidades en México.
