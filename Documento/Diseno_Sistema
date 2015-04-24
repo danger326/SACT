@@ -1,29 +1,92 @@
 \section{Diseño del Sistema}
 \section{Identificación de Actores}
-\section{Observador}
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=0.5]{Segunda_Parte/DS/Imagenes/Diagrama_de_actores}}
+\caption{Diagrama de identifiación de actores}
+\label{fig:6}
+\end{figure}
+
 \subsection{Requerimientos Funcionales}
 \begin{itemize}
-\item \textbf{RF1.-} El usuario
+\item \textbf{RF1.-} El sistema en la aplicación de la observador debe de ser capaz de capturar por medio de una cámara wifi una imagen adecuada.
+\item \textbf{RF2.-} El sistema en la aplicación de la observador debe de ser capaz de enviar la información via wifi referente a los cálculos en sistema métrico marcando: izquierda, derecha, arriba, bajar.
+\item \textbf{RF3.-} El sistema en la aplicación de la observador debe permitirle al usuario ubicar el tiro.
+\item \textbf{RF4.-} El sistema en la aplicación de la central de cálculos debe de ser capaz de cambiar las coordenadas del objetivo y de los puntos de referencia.
+\item \textbf{RF5.-} El sistema en la aplicación de la observador debe de ser capaz de mostrar los cálculos de error sobre la imagen por medio de la realidad aumentada.
+\item \textbf{RF6.-} El sistema en la aplicación de la central de cálculos debe de ser capaz de mostrar gráficamente indicadores en una gama de colores basados en los datos de altimetría, además de los datos de los cálculos de error.
+\item \textbf{RF7.-} El sistema en la aplicación de la observador y central de cálculos debe de tener un módulo de comunicación para el envio de información.
 \end{itemize}
 \subsection{Requerimientos no Funcionales}
 \begin{itemize}
-\item \textbf{RNF1.-} El usuario
+\item \textbf{RNF1.-} El sistema en la aplicación de la observador mostrará la información del tiro erroneo "COMO DECIDAMOS, CON CAJA O FLECHITAS".
+\item \textbf{RNF2.-} El sistema mostrará los indicadores en escala de colores.
+\item \textbf{RNF3.-} El sistema tendrá un "IDEA DEL ICONO" como presentación del icono.
+\item \textbf{RNF4.-} El sistema tendrá como ambiente de interfaz …
 \end{itemize}
 \subsection{Reglas de Negocio}
 \begin{itemize}
-\item \textbf{RN.-} El usuario
+\item \textbf{RN1.-} El sistema operativo en el que corra el sistema debe ser mínimo un Jelly bean  (confirmar la versión).
+\item \textbf{RN2.-} Las características mínimas de la cámara deben ser:
+\item \textbf{RN3.-} La distancia máxima entre la tablet y la cámara debe ser de diez metros.
+\item \textbf{RN4.-} La distancia mínima para la cámara y el objetivo debe ser de un kilómetro.
+\item \textbf{RN5.-} La distancia máxima para la cámara y el objetivo debe ser cuatro kilómetros.
+\item \textbf{RN6.-} La distancia máxima entre la tablet y el Access point debe ser de cincuenta metros.
+\item \textbf{RN7.-} El sistema debe de usar protocolo udp con confirmación de datos a nivel aplicación.
+\item \textbf{RN8.-} El usuario debe tomar la imagen del impacto exactamente cuando sucede y sea perceptible dicho impacto.
 \end{itemize}
-\subsection{Casos de Uso}
+
+\newpage
+\subsection{Caso de Uso General}
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=0.5]{Segunda_Parte/DS/Imagenes/Diagrama_CUG}}
+\caption{Diagrama de casos de uso general}
+\label{fig:7}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=0.5]{Segunda_Parte/DS/Imagenes/DA_Env_Dat_Error_Tiro}}
+\caption{Diagrama de Actividades de envio de datos de error de tiro}
+\label{fig:8}
+\end{figure}
+
+\newpage
+\subsection{Diagramas de Actividades Generales}
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=0.5]{Segunda_Parte/DS/Imagenes/DA_Calc_Datos}}
+\caption{Diagrama de Actividades de cálculo de datos de tiro}
+\label{fig:9}
+\end{figure}
+
+\newpage
 \subsection{Nomenclatura de casos de uso}
 \begin{itemize}
-\item OB-CU00.-
+\item CU1.- Toma de Imagen.
+\item CU2.- Creación y sincronización de malla con imagen.
+\item CU3.- Ajuste de malla.
+\item CU4.- Altimetría.
+\item CU5.- Elegir impacto de tiro.
+\item CU6.- Cálculo de error.
+\item CU7.- Pedir Objetivo.
+\item CU8.- Módulo de comunicación de observador.
+\item CU9.- Módulo de comunicación de central de cálculo.
+\item CU10.- Ubicar objetivo y/o puntos de referencia.
+\item CU11.- Visualización DEM.
+
 \end{itemize}
-\subsection{OB-CU00: }
+\subsection{CU1: Toma de Imagen }
 \subsubsection{Resumen}
 \subsubsection{Descripción de caso de uso}
 \subsubsection{Trayectorias principales y alternativas}
 \subsubsection{Diagrama de secuencia}
 \subsubsection{Diagrama de actividad}
-\subsubsection{Pantalla OB-P00}
+\subsubsection{Pantalla P00}
 
 \section{Diagrama de Clases}
