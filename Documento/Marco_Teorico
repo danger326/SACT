@@ -33,11 +33,15 @@ Es una unidad angular, llamada milésima de artillería. Se define como la medid
 Cuando los puntos se encuentran ubicados sobre el eje x o en una recta paralela a este eje, la distancia entre los puntos corresponde al valor absoluto de la diferencia de sus abscisas. Cuando los puntos se encuentran ubicados sobre el eje y o en una recta paralela a este eje, la distancia entre los puntos corresponde al valor absoluto de la diferencia de sus ordenadas.
 Ahora si los puntos se encuentran en cualquier lugar del sistema de coordenadas, la distancia queda determinada por la relación:
 
+\begin{equation}
+	d = sqrt[(x-x)^2 + (y-y)^2]
+\end{equation}
+
 \begin{figure}[h!]
 \centering
 \includegraphics{Primera_Parte/Imagenes/d_entre_2_puntos}
 \caption{Fórmula matemática para el cálculo de distancia entre dos puntos}
-\label{fig:X}
+\label{fig:5}
 \end{figure}
 
 \newpage
