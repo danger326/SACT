@@ -1,1 +1,17 @@
 \section{Alcances y Limites}
+
+\subsection{Alcances}
+\begin{itemize}
+\item  El resultado del sistema será el cálculo de error entre el objetivo y el tiro.
+\item El sistema solo tomará una imagen y está a su vez será procesada. 
+\end{itemize}
+
+\subsection{Limites}
+\begin{itemize}
+\item El sistema solo funcionará en el día (por las condiciones lumínicas que represente este horario).
+\item El funcionamiento del sistema estará dependiendo del alcance de la cámara wifi (modelo).
+\item El sistema se adaptará a los requerimientos técnicos de la Tablet (el modelo).
+\item El sistema no funcionará dado a las siguientes condiciones meteorológicas (lluvia, niebla, granizo, obstáculos visuales).
+\item El tiempo de retardo del sistema dependerá de la distancia entre la Tablet y la cámara ( o la Tablet, la cámara y el access point … cual es el tiempo máximo que tenemos para realizar el proceso de error).
+\item El sistema funcionará de acuerdo a la memoria interna del dispositivo.
+\end{itemize}
