@@ -9,24 +9,27 @@ Asimismo, gracias al renderizado y empalmado de la malla georeferenciada, se pue
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura1}
+\shadowbox{
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura1}}
 \caption{Sobreposición de malla 3D sobre imagen tomada de cámara.}
 \label{fig:1}
 \end{figure}
 
-\newpage
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura2}
+\shadowbox{
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura2}}
 \caption{Cálculo automático de corrección de tiro. .}
 \label{fig:2}
 \end{figure}
 
 Si cada observador cuenta con este sistema se puede mejorar la corrección de tiro al comparar lo visto por cada uno de ellos con lo mostrado por el sistema automatizado para corrección.
 
+\newpage
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura3}
+\shadowbox{
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura3}}
 \caption{Vista 3D desde central de tiro.}
 \label{fig:3}
 \end{figure}
@@ -39,14 +42,16 @@ A continuación se enlistan detalles de la aplicación:
 \item Procesar la imagen 2D para obtener los datos del tiro erróneo y por medio de las curvas de nivel obtener los datos exactos de posición.
 \item Obtener las distancias calculadas (X,Y) y enviar esa información al sistema responsable de realizar las correcciones.
 \item Comunicar por medio de la tecnología Wifi, aunque en el área de prueba, las distancias son muy grandes, se usan antenas y la frecuencia es diferente. Sin embargo, esta situación no afecta en nada al sistema, debido que todo se realiza en la capa de aplicación.
-\newpage
 \item El envío de los cálculos obtenidos se realiza con sockets UPD por requerimientos del sistema. La verificación del envío y recepción de mensajes se realizará en capa de aplicación.
 \item Mostrar los resultados en una imagen 3D empleando realidad aumentada.
-\item El principal alcance del proyecto es en la obtención del cálculo de la observación del tiro, es decir, la apreciación de si el tiro cayó X metros a la izquierda o derecha y Y metros si cayó arriba o abajo del objetivo. Para realizar este cálculo se desarrollará el método para su obtención. La perspectiva del problema en torno a lo matemático es:
+\item El principal alcance del proyecto es en la obtención del cálculo de la observación del tiro, es decir, la apreciación de si el tiro cayó X metros a la izquierda o derecha y Y metros si cayó arriba o abajo del objetivo. Para realizar este cálculo se desarrollará el método para su obtención.
+\newpage
+La perspectiva del problema en torno a lo matemático es:
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura4}
+\shadowbox{
+\includegraphics[scale=0.5]{Primera_Parte/Imagenes/figura4}}
 \caption{Perspectiva de cámara.}
 \label{fig:4}
 \end{figure}
