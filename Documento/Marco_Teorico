@@ -24,6 +24,30 @@ Un Sistema de Información Geográfica (SIG o GIS, de su acrónimo en inglés �
 
 El SIG funciona como una base de datos con información geográfica (datos alfanuméricos) que se encuentra asociada por un identificador común a los objetos gráficos de un mapa digital. De esta forma, señalando un objeto se conocen sus atributos e, inversamente, preguntando por un registro de la base de datos se puede saber su localización en la cartografía \textbf{[4]}.
 
+En base con la investigación realizada acerca de algunos de los SIG's existentes, en el siguiente cuadro comparativo se podrán ver las ventajas y desventajas de cada uno de ellos \textbf{[Hacer referencia]}.
+
+\begin{table}[ht]
+\centering % Centra la tabla
+\resizebox{16cm}{!} {
+\begin{tabular}{| c | p{4cm} | p{4cm} | p{4cm} | p{4cm} | p{4cm} | p{4cm} | c |} % Centrado con dos columnas
+\hline %inserts double horizontal lines
+GIS & Licencia & Características & Manejo & Formatos soportados & SDK's disponibles & Extensiones & Multiplataforma\\
+\hline\\[0.2cm]
+QGIS & Libre & Permite visualizar, administrar, editar, analizar datos y componer mapas. Funcionalidad de análisis mediante la integración con GRASS & Sencilla Interfaz gráfica de usuario amigable & Formatos vectoriales, raster incluyendo shapefiles de ESRI, MapInfo, SDTS y GML. GRASS & SDK para C++, SDK para Qt, SDK para Android, SDK para Python, SDK para Microsoft Visual Studio & Posee diversos pluggins para 3D & Si\\
+\\[0.2cm]
+ARCGIS & Se comercializan tres licencias: ArcInfo, ArcEditor y ArcView, que comparten un mismo núcleo y un número de funciones que varía & Utilizado para capturar, editar, analizar, diseñar, publicar en la web e imprimir información geográfica & Sencillo & Todos los formatos espaciales de ESRI, formatos de archivos CAD y gran variedad de formatos de imágenes. & SDK para OS X, SDK para Qt, SDK para Windows Store previamente ArcGIS Mobile, SDK
+ArcPAD, SDK para Android, SDK para iOS, SDK para Java (Windows y Linux), SDK para Windows Phone, SDK para WPF (for Windows) & Incluyen análisis, integración de datos y edición, publicación y cartografía. & Si\\
+\\[0.2cm]
+GVSIG & Libre & Incluye funcionalidades SIG e IDE. Está traducido actualmente a más de 24 idiomas. & Intuitivo muy fácil de manejar & Formatos raster y vectorial & SDK para Java, SDK para Android & Cuenta con diversos pluggins & Si\\
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Cuadro comparativo de los SIG's. \label{tabla}}
+\end{table}
+
+\newpage
+\subsection{Justificación de la elección del SIG}
+De acuerdo a lo analizado, se decidió hacer uso de la versión Quantum GIS, debido a que es un software libre y las bondades que nos ofrece son suficientes para las necesidades de este proyecto.
 
 \section{Milits}
 
@@ -34,15 +58,7 @@ Cuando los puntos se encuentran ubicados sobre el eje x o en una recta paralela 
 Ahora si los puntos se encuentran en cualquier lugar del sistema de coordenadas, la distancia queda determinada por la relación:
 
 \begin{equation}
-	d = sqrt[(x-x)^2 + (y-y)^2]
+	d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}
 \end{equation}
 
-\begin{figure}[h!]
-\centering
-\includegraphics{Primera_Parte/Imagenes/d_entre_2_puntos}
-\caption{Fórmula matemática para el cálculo de distancia entre dos puntos}
-\label{fig:5}
-\end{figure}
-
-\newpage
 Para demostrar esta relación se deben ubicar los puntos A(x1,y1) y B(x2,y2) en el sistema de coordenadas, luego formar un triángulo rectángulo de hipotenusa AB y emplear el teorema de Pitágoras \textbf{[6]}.
