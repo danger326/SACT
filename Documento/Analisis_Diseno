@@ -1,8 +1,8 @@
 \chapter{Análisis y diseño}
 \input{./Segunda_Parte/AD/Ambito_Sistema}
-\section{Análisis de riesgos}
-\section{Planificación de riesgos}
-\section{Lo que vayamos sacando en base al análisis del sistema}
+\input{./Segunda_Parte/AD/Analisis_Riesgos}
 \section{Análisis de factibilidad}
 \subsection{Análisis de factibilidad técnica de hardware}
 \subsection{Análisis de factibilidad técnica de software}
+
+
