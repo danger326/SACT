@@ -1,0 +1,56 @@
+\section{Análisis de factibilidad}
+Para desarrollar el sistema se propone una implementación cliente-servidor por medio de comunicación wifi mediante el protocolo udp agregando el servicio de confirmación. Se necesita una comunicación simple de bajo rango de datos y esta arquitectura nos ofrece esa bondad. Cabe señalar que la implementación será por medio de una comunicación vía antenas, las cuales otorgan otras características como la frecuencia de transmisión.
+
+\subsection{Análisis de factibilidad técnica de hardware}
+
+Para este sistema se va a utilizar tecnología de fácil alcance.
+
+\begin{itemize}
+\item Tablet
+\begin{itemize}
+\item Acceso a red LAN, WAM o MAN
+\item Capacidad mínima en disco duro de "Magnitud".
+\item Capacidad mínima en RAM de "Magnitud".
+\item Mínimo un puerto USB.
+\item Velocidad de CPU de "Magnitud".
+\item Procesador Core Duo (VERIFICAR) como mínimo.
+\end{itemize}
+
+\item Cámara wifi
+\begin{itemize}
+\item Sensor Exmor R CMOS tipo 1.0" (13.2 X 8.8mm)( Pixeles efectivos: 20.2 MP)
+\item Lente Zeiss Vario Sonnar T*, No. F1.8(G) - 4.9(T)(Distancia focal: f = 10.4 - 37.1mm)
+\item Zoom óptico 3.6x
+\item Estabilización de imagen Steadyshot óptico
+\item Modo de enfoque automático de disparo sencillo, enfoque manual (Distancia de enfoque 5 cm a "infinito" (W), 0.55 m a "infinito" (T), modo de medición de luz = Multipatrón).
+\item Flash incorporado
+
+\newpage
+\item Pantalla LCD de segmentos
+\item Obturador con las siguientes características de velocidad: iAuto (4 - 1/2000) / Prog. autom. (1 - 1/2000) / Prioridad de apertura (8 - 1/2000).
+\item Balance de blancos automático, luz diurna, sombra, nublado, flourecentes: Blanco cálido, blanco fresco, blanco diurno; temporizador de color, incandecente.
+\item Capacida de almacenamiento multimedia.
+\item Resolución de imagen fija: Modo 3:2: 20 M (5472 x 3648) / 5 M (2736 x 1824) / modo 4:3: 18 M (4864 x 3648) / 5 M (2592 x 1944) / modo 16:9: 17 M (5472 x 3080) / 4.2 M (2720 x 1528) / modo 1:1: 13 M (3648 x 3648) / 3.7 M (1920 x 1920).
+\item Formato de grabación JPEG (DCF, Exif)
+\item Procesador de imagen BIONZ, temporizador de 10 seg. y modo de disparo automático.
+\item Consumo de energia 1.1 W y duración de batería de 220 capturas o 110 minutos.
+\item Terminal multi/micro USB, USB de alta velocidad (USB 2.0).
+\item Función NFC One-Touch, Wi-Fi
+\end{itemize}
+
+\item PC de escritorio
+\begin{itemize}
+\item Pantalla.
+\item Teclado.
+\item Mouse.
+\item Procesador intel Core Duo como mínimo.
+\item Memoria RAM 2 gb.
+\end{itemize}
+\end{itemize}
+
+\subsection{Análisis de factibilidad técnica de software}
+\begin{itemize}
+\item El sistema debe ser instalado sobre una plataforma android.
+\item Se debe contar con Java JDK 1.6 o superior.
+\item Controladores del GPS por utilizar.
+\end{itemize}
