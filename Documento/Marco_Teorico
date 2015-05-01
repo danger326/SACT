@@ -42,13 +42,135 @@ GVSIG & Libre & Incluye funcionalidades SIG e IDE. Está traducido actualmente a
 \hline %inserts single line
 \end{tabular}
 }
-\caption{Cuadro comparativo de los SIG's. \label{tabla}}
+\caption{Cuadro comparativo de los SIG's.\label{tabla}}
 \end{table}
 
 \newpage
 \subsection{Justificación de la elección del SIG}
 De acuerdo a lo analizado, se decidió hacer uso de la versión Quantum GIS, debido a que es un software libre y las bondades que nos ofrece son suficientes para las necesidades de este proyecto.
 
+\section{Modelo Digital de Elevaciones}
+
+\subsection{Concepto de Modelo}
+Una acepción de la palabra modelo, originada en ámbitos geográficos, lo define como una representación simplificada de la realidad en la que aparecen algunas de sus propiedades.
+Los modelos se construyen estableciendo una relación de correspondencia con la realidad cuyas variantes pueden producir modelos de características notablemente diferentes.\\
+
+Se distinguen tres tipos básicos:
+
+\begin{itemize}
+\item \textbf{Modelos icónicos:} La relación de correspondencia se establece a través de las propiedades morfológicas: una maqueta es un modelo del objeto representado donde la relación establecida es fundamentalmente una reducción de escala.
+\item \textbf{Modelos análogos:} Poseen algunas propiedades similares a los objetos representados pero sin ser una réplica morfológica de los mismos: un mapa es un modelo de la realidad establecido mediante un conjunto de convenciones relativamente complejo que conduce a un resultado final claramente distinto del objeto representado.
+\item \textbf{Modelos simbólicos:} Se llega a un nivel superior de abstracción ya que el objeto real queda representado mediante una simbolización matemática (geométrica, estadística, etc.).
+\end{itemize}
+
+Los modelos digitales del terreno se incluyen en esta última categoría y, consecuentemente, las relaciones de correspondencia que se establecen con el objeto tienen la forma de algoritmos o formalismos matemáticos.
+
+\newpage
+En este caso, los MDT presentan algunas ventajas sobre el resto de tipos de modelos, derivadas de su naturaleza numérica: no ambigüedad, posibilidad de modelización de procesos con una deducción estricta, verificabilidad y repetibilidad de los resultados.
+
+\subsection{Modelos digitales del terreno (MDT)}
+Los modelos digitales del terreno se han definido como un conjunto de datos numéricos que describe la distribución espacial de una característica del territorio.\\
+
+La diferencia básica entre los modelos digitales y los modelos analógicos reside en que los primeros están codificados en cifras, lo que permite su tratamiento por medios informáticos.\\ 
+
+Para llegar a la elaboración de los modelos digitales es necesario, por tanto, efectuar un proceso de codificación de la información, que permite una representación virtual en forma de cifras.\\
+
+Las relaciones espaciales o las características que se desean representar se traducen a diferentes tipos de estructuras numéricas (vectores, matrices, conjuntos, etc.) o a expresiones matemáticas que expresan relaciones topológicas y funcionales.\\
+
+Los MDT pueden ser construidos directamente a partir de la realidad a representar, pero es muy habitual que exista un modelo analógico intermedio a partir del cual se realiza la codificación.  Por este motivo, los MDT han sido entendidos como una versión digital (y por tanto codificada) de los mapas convencionales por lo que, en ocasiones, han sido denominados mapas virtuales.\\
+
+En la cartografía convencional la descripción hipsométrica constituye la infraestructura básica del resto de los mapas. El papel equivalente en los MDT lo desempeña el modelo digital de elevaciones (MDE), que describe la altimetría de una zona mediante un conjunto de datos acotados.
+
+\newpage
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=1.0]{Primera_Parte/Imagenes/DEM}}
+\caption{Procesos básicos implicados en la creación, manejo y explotación de los modelos digitales de elevaciones.}
+\label{fig:5}
+\end{figure}
+
+Partiendo de la superficie real del terreno, la construcción del mapa topográfico incluye básicamente un proceso de simbolización, mediante el cual las propiedades del terreno se representan sobre un plano usando relaciones de analogía previamente establecidas.\\
+
+La codificación numérica del modelo analógico conduce al modelo digital, susceptible de tratamientos matemáticos y estadísticos imposibles de aplicar al anterior.\\
+
+Ello permite construir modelos digitales derivados y realizar procesos de modelización mediante simulaciones numéricas. Los resultados obtenidos son contrastables con la realidad, induciendo correcciones o ajustes del algoritmo de modelización que permitan una mejor correspondencia con el fenómeno real.
+
+\subsection{Modelo Digital de Elevaciones(MDE)}
+\subsubsection{Definición}
+De acuerdo con la definición general presentada en el apartado anterior, un modelo digital de elevaciones (MDE) se define como una estructura numérica de datos que representa la distribución espacial de la altitud de la superficie del terreno.
+
+\newpage
+Un MDE puede describirse de forma genérica del modo siguiente:
+
+\begin{figure}[h!]
+\centering
+\shadowbox{
+\includegraphics[scale=1.0]{Primera_Parte/Imagenes/ecu1}}
+\caption{Ecuación de DEM.}
+\label{fig:X}
+\end{figure}
+
+Donde z es la altitud del punto situado en las coordenadas x e y, y z la función que relaciona la variable con su localización geográfica. Los valores de x e y suelen corresponder con las abscisas y ordenadas de un sistema de coordenadas plano, habitualmente un sistema de proyección cartográfica.\\
+
+La ecuación anterior representa una superficie o campo escalar en la que la altitud es una variable continua. Dado que esta superficie está formada por un número infinito de puntos no es posible su modelización sin cierta pérdida de información, proceso equivalente al de generalización cartográfica en los mapas convencionales.\\
+
+En la versión digital sería posible presentar de forma explícita, al menos teóricamente, la ecuación anterior, que relaciona la altitud con la localización geográfica. Sin embargo, la complejidad del relieve hace que su representación matemática mediante funciones no tenga más que un significado simbólico.\\
+
+En la práctica, las cotas correspondientes a una zona sólo pueden representarse mediante una ecuación cuando la parcela descrita es pequeña y el relieve implicado muy simple. Este método puede ser utilizado para aplicaciones concretas, operando sobre zonas muy limitadas, pero en cuanto el relieve se complica o la superficie aumenta, el ajuste de una ecuación para su descripción se hace imposible.\\
+
+Como alternativa, se han buscado soluciones para representar la altitud mediante conjuntos limitados de cotas, diseñando las estructuras de datos que buscan un equilibrio entre la facilidad de manejo y la descripción realista del relieve.
+
+\newpage
+\subsubsection{Estructuras de datos en el MDE}
+De forma general, la unidad básica de información en un MDE es un valor de altitud, z, al que acompañan los valores correspondientes de x e y, expresados en un sistema de proyección geográfica para una precisa referenciación espacial. Las variantes aparecen cuando se definen las interrelaciones entre estas unidades elementales de información.\\
+
+El diseño de estas interrelaciones es lo que configura las diferentes opciones en la estructura de datos, cuya elección es trascendental pues condiciona completamente el futuro manejo de la información. Mientras que los mapas convencionales usan casi exclusivamente una única convención (las curvas de nivel) para la representación de la superficie del terreno, los MDE disponen de alternativas más variadas, desde una transposición casi directa de las isohipsas hasta otras menos habituales en la cartografía impresa, pero más adaptadas al proceso digital.\\
+
+En todas ellas la altitud se describe básicamente mediante un conjunto finito y explícito de cotas. El valor propio de un punto de localización arbitraria será, en su caso, estimado por interpolación a partir de los datos de su entorno. 
+
+\begin{table}[ht]
+\centering % Centra la tabla
+\begin{tabular}{ l c p{7cm} }
+\toprule[0.8mm]
+Vectoriales & Contornos & Secuencial: Las líneas se almacenan como cadenas de cotas.\\
+\cmidrule(l){3-3}
+& & Analítica: Las líneas se almacenan como segmentos de Bézier, polinómicos, etc.\\
+\cmidrule(l){2-3}
+& Perfiles & Cadenas paralelas de cotas en líneas con altitud variable.\\
+\cmidrule(l){2-3}
+& Triángulos & Red de triángulos irregulares (TIN).\\
+\midrule[0.8mm]
+Raster & Matrices & Regulares: Cotas sobre una malla cuadrada de filas y columnas equidistantes.\\
+\cmidrule(l){3-3}
+& & Escalables: Cotas sobre submatrices jerárquicas y de resolución variable.\\
+\cmidrule(l){2-3}
+& Polígonos & Cotas asignadas a teselas poligonales regulares.\\
+\bottomrule[0.8mm]
+
+\end{tabular}
+\caption{Tabla comparativa de estructuras del MDE. \label{tabla}}
+\end{table}
+
+\newpage
+Los modelos digitales de elevaciones se han dividido básicamente en dos grupos en función de la concepción básica de la representación de los datos:
+
+\begin{itemize}
+\item \textbf{Raster:} los datos se interpretan como el valor medio de unidades elementales de superficie no nula que teselan el terreno con una distribución regular, sin solapamiento y con recubrimiento total del área representada.
+\item \textbf{Vectorial:} están basados en entidades (básicamente puntos y líneas) definidas por sus coordenadas.
+\begin{itemize}
+\item \textbf{Modelo vectorial:} Redes de triángulos irregulares (TIN). Una estructura de datos cada vez más utilizada es la que se compone de un conjunto de triángulos irregulares adosados y que suele identificarse por las siglas de su denominación inglesa: triangulated irregular network, TIN.\\
+
+Los triángulos se construyen ajustando un plano a tres puntos cercanos no colineales, y se adosan sobre el terreno formando un mosaico que puede adaptarse a la superficie con diferente grado de detalle, en función de la complejidad del relieve.\\
+Se trata de una estructura en la que el terreno queda representado por el conjunto de superficies planas que se ajustan a una estructura anterior de puntos. Los TIN pueden considerarse como una estructura derivada de otra anterior de puntos o líneas.\\
+
+Aunque la distribución original puede ser cualquiera (incluso puntos distribuidos aleatoriamente), es frecuente partir de una base de isohipsas (modelo vectorial) para generar la red de triángulos.\\
+
+Estos están internamente organizados en función de su vecindad mediante un conjunto de información bastante complejo que hace posible un manejo relativamente ágil y eficaz frente a alternativas menos estructuradas.
+\end{itemize}
+\end{itemize}
+
+\newpage
 \section{Milits}
 
 Es una unidad angular, llamada milésima de artillería. Se define como la medida del ángulo central formado por un arco que es 1/6400 de la circunferencia. Por ello, la equivalencia entre grados y milits es: 9 grados = 160 milits \textbf{[5]}.
@@ -62,3 +184,30 @@ Ahora si los puntos se encuentran en cualquier lugar del sistema de coordenadas,
 \end{equation}
 
 Para demostrar esta relación se deben ubicar los puntos A(x1,y1) y B(x2,y2) en el sistema de coordenadas, luego formar un triángulo rectángulo de hipotenusa AB y emplear el teorema de Pitágoras \textbf{[6]}.
+
+\section{OpenGL}
+\subsection{Definición}
+
+Es una especificación estándar que define una API multilenguaje y multiplataforma para escribir aplicaciones que produzcan gráficos 2D y 3D. La interfaz consiste en más de 250 funciones diferentes que pueden usarse para dibujar escenas tridimensionales complejas a partir de primitivas geométricas simples, tales como puntos, líneas y triángulos. Fue desarrollada originalmente por Silicon Graphics Inc. (SGI) en 19922 y se usa ampliamente en CAD, realidad virtual, representación científica, visualización de información y simulación de vuelo.
+
+\newpage
+Actualmente los dispositivos móviles soportan OpengL, un claro ejemplo es Android, que en su framework para desarrollo de aplicaciones proporciona mucho herramientas estándar para crear interfaces de usuario atractivas y gráficamente funcionales. Sin embargo, si se desea tener mas control de la pantalla de la aplicación o aventurarse en gráficos de tres dimensiones, es necesario utilizar herramientas diferentes. La API de OpenGl proporcionada por el framework de Android ofrece un conjunto de herramientas para graficos anmados que son solo limitados por tu imaginación y puede beneficiarte también de la unidad de procesamiento de gráficos proporcionado por muchos dispositivos Android.\\
+
+Sun, ha hecho disponible un API con el que
+poder programar OpenGL desde Java, y esta
+API se ha desarrollado siguiendo un Java
+Specification Request, lo que significa que el
+proceso está abierto a todo aquel desarrollador
+interesado en contribuir en la especificación.\\
+
+Este API proporciona acceso a la especificación
+OpenGL 2.0, así como a extensiones de los
+fabricantes (incluye el lenguaje para shaders
+Cg de Nvidia).\\
+
+Los paquetes de esta API incluyen funciones
+de las bibliotecas GLU y GLUT conocidas a
+los programadores de OpenGL, excepto
+aquellas relacionadas con el sistema de ventanas
+y la gestión de eventos, que evidentemente
+en Java se hace con AWT o Swing.\\
