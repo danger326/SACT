@@ -1,22 +1,56 @@
 \begin{titlepage}
-\centering
-\includegraphics[scale=0.17]{Primera_Parte/Imagenes/escom-ipn.png} 
+\begin{tabular}{p{3cm}p{15.0cm}}
+\includegraphics[width=2.0cm]{Primera_Parte/Imagenes/ipn}
+\begin{center}
+\rule[1cm]{1.5mm}{16.0cm}%vertical
+\hspace{2pt}
+\rule[0cm]{0.7mm}{17.0cm}%vertical
+\hspace{2pt}
+\rule[1cm]{1.5mm}{16.0cm}%vertical
+\end{center}
+\includegraphics[width=2.5cm]{Primera_Parte/Imagenes/escom}
+&
+\vspace{-3.4cm}
+\begin{center}
+\Large{ \bf{Instituto Polit\'ecnico Nacional}}
+\\
+\rule[0mm]{12.0cm}{0.35mm}%horizontal
+\\
+\rule[3mm]{12.0cm}{1.2mm}%horizontal
+\\
+\textbf{Escuela Superior de C\'omputo}
 
-\large{Instituto Polit\'ecnico Nacional} 
-\large{\\ Escuela Superior de C\'omputo} 
+\vspace{0.3\baselineskip}
 
-\vspace{1cm}
+{\Large \bf{Sistema de apoyo de observación\\ para corrección de tiro"\\ 2014 - B063}}
 
-\huge {\textbf{Trabajo Terminal\\}}
-\rule{7cm}{3pt} %Linea horizontal
-\large {\\\textbf{"Sistema de apoyo de observación para corrección de tiro"\\ 2014 - B063}}
+%\vfill
+\vspace*{0.4cm}
 
-\vspace{1cm}
+\huge{\bf Trabajo Terminal}
 
-{\sl {\large {\bf Presentan:\\} Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}} 
-{\sl {\large {\bf Directores: \\}Miguel Rosales\\ Tlatoani Reyes Bermejo \\}}
+\vspace*{0.4cm}
+{\large QUE PARA OBTENER EL GRADO DE:}
 
-{\sl {\large {\bf Fecha: }}}\\
+\vspace*{0.2cm}
 
-{\it{\bf  Carrera: } Ingeniería en Sistemas Computacionales}\\
+\Large{\bf Ingeniero en Sistemas Computacionales}
+
+\vspace*{0.5cm}
+P R E S E N T A N:
+
+\vspace*{0.5cm} \large{\bf Camarillo Hernández Erik Alberto\\ Cahuantzi Rodríguez Miguel\\ Cruces Caballero Saúl David\\ Guerrero Romero Daniel Alberto \\}
+
+\vspace*{0.5cm}
+Directores de tesis:
+
+\large{\bf Miguel Alejandro Martínez Rosales\\ Tlatoani Reyes Bermejo \\}
+
+\vspace*{0.5 cm}
+\Large{Mexico, D.F.}\hspace*{5cm}\Large{Junio 2015}
+
+
+\end{center}
+
+\end{tabular}
 \end{titlepage}
