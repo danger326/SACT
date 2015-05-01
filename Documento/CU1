@@ -1,0 +1,73 @@
+\subsection{CU4: Altimetría }
+\subsubsection{Resumen}
+Permite al usuario observador seleccionar alguna de las opciones posibles: Ajustar malla, elegir impacto de tiro, pedir objetivo y cálculo de error.
+
+\subsubsection{Descripción de caso de uso}
+
+\textbf{Descripción}
+\begin{table}[ht]
+\centering % used for centering table
+\resizebox{16cm}{!} {
+\begin{tabular}{| l |  p{12cm} |} % centered columns (2 columns)
+
+\hline Autor: & Camarillo Hernández Erik Alberto \\ 
+\hline Revisó: & Cruces Caballero Saúl David \\  
+\hline Actor(es): & Observador \\
+\hline Propósito: & Mostrar las opciones de las actividades posibles. \\
+\hline Entradas: & - \\
+\hline Salidas: & - \\
+\hline Precondiciones : & La imagen tomada y la malla estén sincronizadas.\\
+\hline Postcondiciones: & -\\
+\hline Errores: & - \\
+\hline Tipo: & Primario\\
+\hline %inserts single line
+
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Descripción de CU1. \label{tabla}}
+\end{table}
+
+\subsubsection{Trayectorias principales y alternativas}
+
+\textbf{Trayectoria Principal}\\
+\begin{enumerate}
+\item \miniactor Llega a este caso al haber dado click al botón \textbf{Tomar imagen} y por consecuente  haber pasado el procedimiento del CU de \textbf{Creación y sincronización de malla con imagen}.
+\item \minicaso Muestra la pantalla \textbf{Altimetría} con la imagen y malla sincronizadas.
+\end{enumerate}
+
+\textbf{Puntos de extensión}
+\begin{itemize}
+\item \miniactor  Da click en el botón \textbf{Ajuste de Malla}. Extiende a : CU3 \textbf{Ajuste de Malla}.
+\newpage
+\item \miniactor  Da click en el botón \textbf{Elegir impacto de tiro}. Extiende a : CU5 \textbf{Elegir impacto de tiro}.
+\item \miniactor  Da click en el botón \textbf{Cálculo de error}. Extiende a : CU6 \textbf{Cálculo de error}.
+\item \miniactor  Da click en el botón \textbf{Pedir objetivo}. Extiende a : CU7 \textbf{Pedir objetivo}.
+\end{itemize}
+{\it --- Fin de la trayectoria. ---}\\
+
+\subsubsection{Diagrama de secuencia}
+\subsubsection{Diagrama de actividad}
+
+\newpage
+\subsubsection{Pantalla P00}
+
+\subsubsection{Objetivo}
+Mostrar al usuario observador las opciones a seleccionar: Ajustar malla, elegir impacto de tiro, pedir objetivo y cálculo de error.
+
+\subsubsection{Diseño}
+Se muestra al usuario observador la imagen con la malla en sincronización junto con un menú al lado (AL LADO QUE PONGA EL ÑONGAS EN SUS MOCK) con las opciones de ajustar malla, elegir impacto de tiro, pedir objetivo y cálculo de error.\\
+
+% En esta parte van las pantallas
+
+\subsubsection{Entradas}
+{\it --- No hay entradas. ---}\\
+\subsubsection{Controles}
+{\it --- No hay Controles. ---}\\
+\subsubsection{Comandos}
+\begin{enumerate}
+\item Botón \textbf{[Ajustar malla]}: Se va al CU3 Ajustar malla.
+\item Botón \textbf{[Elegir impacto de tiro]}: Se va al CU5 Elegir el impacto de tiro.
+\item Botón \textbf{[Cálculo de error]}: Se va al CU6 Cálculo de error.
+\item Botón \textbf{[Pedir objetivo]}: Se va al CU7 Pedir Objetivo.
+\end{enumerate}
