@@ -1,0 +1,7 @@
+\section{Herramientas y/o API's a utilizar}
+\begin{itemize}
+\item \textbf{Vuforia:} Permitirá la visualización de objetivos, impactos de tiro y de los resultados sobre la aplicación.
+\item \textbf{OpenGL:} Permitirá el desarrollo y construcción de malla sobre la imagen para fundamentar la veracidad de los datos.
+\item \textbf{Quantum GIS:} Permitirá ser la fuente de los datos reales para la generación de mallas.
+\item \textbf{Software para la visualización de DEM:} Saúl debe de investigar ese software.
+\end{itemize}
