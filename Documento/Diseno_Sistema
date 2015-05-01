@@ -1,4 +1,8 @@
 \section{Diseño del Sistema}
+El sistema se programó utilizando el paradigma orientado a objetos, por lo que su diseño se presenta mediante diagramas UML, mismos que permiten visualizar y documentar los módulos que lo conforman.
+
+"DIAGRAMA DE DELIMITACIÓN DEL SISTEMA" duda de como hacerlo ... averiguar si su equivalente es el diagrama de componentes o de comunicación
+
 \section{Identificación de Actores}
 \begin{figure}[h!]
 \centering
@@ -7,6 +11,12 @@
 \caption{Diagrama de identifiación de actores}
 \label{fig:6}
 \end{figure}
+
+\subsection{Stakeholders}
+\begin{itemize}
+\item \textbf{Observador en entrenamiento:} Usuario que hace uso de la aplicación de la tablet y es el encargado de poner los impactos de tiros simulados.
+\item \textbf{Usuario en central de cálculo:} Usuario que hace uso de la aplicación de escritorio y es el encargado de poner los objetivos que serán enviados a la aplicación del observador. 
+\end{itemize}
 
 \subsection{Requerimientos Funcionales}
 \begin{itemize}
@@ -18,6 +28,8 @@
 \item \textbf{RF6.-} El sistema en la aplicación de la central de cálculos debe de ser capaz de mostrar gráficamente indicadores en una gama de colores basados en los datos de altimetría, además de los datos de los cálculos de error.
 \item \textbf{RF7.-} El sistema en la aplicación de la observador y central de cálculos debe de tener un módulo de comunicación para el envio de información.
 \end{itemize}
+
+\newpage
 \subsection{Requerimientos no Funcionales}
 \begin{itemize}
 \item \textbf{RNF1.-} El sistema en la aplicación de la observador mostrará la información del tiro erroneo "COMO DECIDAMOS, CON CAJA O FLECHITAS".
@@ -81,12 +93,8 @@
 \item CU11.- Visualización DEM.
 
 \end{itemize}
-\subsection{CU1: Toma de Imagen }
-\subsubsection{Resumen}
-\subsubsection{Descripción de caso de uso}
-\subsubsection{Trayectorias principales y alternativas}
-\subsubsection{Diagrama de secuencia}
-\subsubsection{Diagrama de actividad}
-\subsubsection{Pantalla P00}
+
+\newpage
+\input{./Segunda_Parte/DS/CU1}
 
 \section{Diagrama de Clases}
