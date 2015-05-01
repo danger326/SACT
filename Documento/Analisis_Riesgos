@@ -10,30 +10,52 @@ id & Elemento & Riesgo & Expresión en lenguaje regular & Probabilidad Subjetiva
 \hline\\[0.2cm]
 RI-01 & Planificación & Pérdida de información del proyecto & Baja & 5\% & Crítico \\
 \\[0.2cm]
-RI-02 & Todos los equipos & Dificultad de comunicación entre los miembros de los grupos & Altamente probable & 60\% & Crítico\\
+RI-02 & Todas las áreas & Dificultad de comunicación entre los miembros de los grupos & Altamente probable & 60\% & Crítico\\
 \\[0.2cm]
-RI-03 & Equipo de Análisis & Requerimientos  incompletos o incorrectos & Media & 30\% & Marginal\\
+RI-03 & Análisis & Requerimientos  incompletos o incorrectos & Media & 30\% & Marginal\\
 \\[0.2cm]
-RI-04 & Todos los equipos & Sobrepasar el calendario previsto para avances al usuario & Poco probable & 18\% & Marginal\\
+RI-04 & Todos las áreas & Sobrepasar el calendario previsto para avances al usuario & Poco probable & 18\% & Marginal\\
 \\[0.2cm]
-RI-05 & Equipo de desarrollo & Problemas al conjuntar el software con los componentes & Altamente probable & 60\% & Marginal\\
+RI-05 & Desarrollo & Problemas al conjuntar el software con los componentes & Altamente probable & 60\% & Marginal\\
 \\[0.2cm]
-RI-6 & Equipo de desarrollo & Inexperiencia del equipo técnico en el desarrollo e implementación  del proyecto. & Poco probable & 20\% & Marginal\\
+RI-6 & Desarrollo & Inexperiencia del equipo técnico en el desarrollo e implementación  del proyecto. & Poco probable & 20\% & Marginal\\
 \\[0.2cm]
 RI-7 & Planificación & Planificación demasiado optimista & Media & 40\% & Insignificante\\
 \\[0.2cm]
-RI-8 & Equipo de desarrollo & El diseño y la implementación son distintas & Altamente probable & 68\% & Insignificante\\
+RI-8 & Desarrollo & El diseño y la implementación son distintas & Altamente probable & 68\% & Insignificante\\
 \\[0.2cm]
-RI-9 & Todos los equipos & Ausencia de miembros clave en los equipos de trabajo & Media & 40\% & Insignificante\\
+RI-9 & Todos las áreas & Ausencia de miembros clave en los equipos de trabajo & Media & 40\% & Insignificante\\
 \\[0.2cm]
-RI-10 & Equipo de Diseño & Diseño inadecuado & Media & 40\% & Insignificante \\
+RI-10 & Diseño & Diseño inadecuado & Media & 40\% & Insignificante \\
 \\[0.2cm]
-RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equipo & Media & 40\% & Insignificante \\
+RI-11 & Todos las áreas & Falta de disponibilidad de los integrantes del  equipo & Media & 40\% & Insignificante \\
 
 \hline %inserts single line
 \end{tabular}
 }
-\caption{Tabla de análisis de riesgos. \label{tabla}}
+\caption{Tabla de análisis de riesgos 1. \label{tabla}}
+\end{table}
+
+\begin{table}[ht]
+\centering % Centra la tabla
+\resizebox{18cm}{!} {
+\begin{tabular}{| c | c | p{4cm} | c | c | c |} % Centrado con dos columnas
+\hline %inserts double horizontal lines
+id & Elemento & Riesgo & Expresión en lenguaje regular & Probabilidad Subjetiva & Estimación del impacto\\
+\hline
+\\[0.2cm]
+RI-12 & Análisis & Señal insuficiente para la comunicación del sistema & Media & 20\% & Marginal \\
+\\[0.2cm]
+RI-13 & Análisis & Daño de la cámara wifi por cualquier causa & Baja & 5\% & Crítico \\
+\\[0.2cm]
+RI-14 & Desarrollo y pruebas & Actividad climatológica no es la adecuada & Media & 50\% & Marginal \\
+\\[0.2cm]
+RI-15 & Pruebas & El usuario no ajuste bien la malla & Media & 50\% & Catastrófico \\
+
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Tabla de análisis de riesgos 2. \label{tabla}}
 \end{table}
 
 \newpage
@@ -49,6 +71,7 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \paragraph{Minimización:}
 \begin{itemize}
 \item Tener una buena comunicación y cumplir los tiempos programados, de esta forma cualquier pérdida se podrá elaborar el producto faltante de manera rápida y sin perder más tiempo del ya utilizado
+\newpage
 \item Tener una buena documentación, de esta manera se podrá reconstruir la parte faltante de manera eficiente.
 \end{itemize}
 \paragraph{Contingencia:}
@@ -57,7 +80,6 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Hacer un recuento de la información perdida, tratando de partir del último prototipo para dar comienzo inmediato a la nueva elaboración.\\
 \end{itemize}
 
-\newpage
 {\bf RI-02 Dificultad de comunicación entre los miembros de los grupos}
 \paragraph{ Condición:} Existe desacuerdo entre integrantes de equipos.
 \paragraph{Consecuencia:} Se detiene total o parcialmente el trabajo que está realizando el equipo.
@@ -74,11 +96,11 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Realizar una reunión para discutir y analizar detalladamente qué opción será mejor para cumplir con los requerimientos y alcanzar los objetivos planteados.\\
 \end{itemize}
 
+\newpage
 {\bf RI-03 Requerimientos  incompletos o incorrectos}
 \paragraph{Condición:} Inconsistencias en la toma de requerimientos, falta de experiencia en análisis y toma de requerimientos.
 \paragraph{Consecuencia:} El proyecto puede sufrir retrasos, cuanto más avanzado esté el desarrollo del mismo más crítico será implementar los cambios, y generación de nuevos requisitos.
 \paragraph{Efecto:} Pérdida de tiempo en la reestructuración necesaria del proyecto, finalizar el mismo fuera de los plazos establecidos, no obtener el resultado programado inicialmente en cuanto al producto final.
-\newpage
 \paragraph{Prevención:}
 \begin{itemize}
 \item Realizar un análisis detallado de los requerimientos.
@@ -97,11 +119,11 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Si es un requerimiento de menor prioridad, delegar a la siguiente iteración.\\
 \end{itemize}
 
+\newpage
 {\bf RI-04 Sobrepasar el calendario previsto para avances al usuario}
 \paragraph{Condición:}  El avance planeado para alguna de las fechas no está terminado.
 \paragraph{Consecuencia:} El usuario se disguste y se quede en malos términos para futuros proyectos o incluso por enojo dificulte el compromiso para con nosotros para el desarrollo del proyecto.
 \paragraph{Efecto:} Retraso con las fechas ya preestablecidas para futuras entregas y entrega final del proyecto.
-\newpage
 \paragraph{Prevención:}
 \begin{itemize}
 \item Verificar los avances que se tengan por parte de los distintos grupos de trabajo y corregir si es necesario.
@@ -118,6 +140,8 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 {\bf RI-05 Problemas al conjuntar el software con los componentes}
 \paragraph{Condición:} Los componentes no son compatibles con los módulos establecidos a desarrollar.
 \paragraph{Consecuencia:} El proceso de desarrollo se ve afectado en tiempos, lo que generaría un retraso del proyecto.
+
+\newpage
 \paragraph{Prevención:}
 \begin{itemize}
 \item  Informarnos acerca de los componentes a usar y verificar si es viable incluirlos en el proyecto
@@ -128,7 +152,6 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Quitar los componentes que causen conflictos y buscar la solución, ya sea usar otro componente o crearlo.\\
 \end{itemize}
 
-\newpage
 {\bf RI-6 Inexperiencia del equipo técnico en el desarrollo e implementación  del proyecto}
 \paragraph{Condición:}  Algunos integrantes del equipo de desarrollo desconocen total o parcialmente el uso de las herramientas elegidas para el desarrollo del sistema.
 \paragraph{Consecuencia:} Es difícil concluir el sistema y toma más tiempo del que se tenía previsto corriendo el riesgo de no terminarlo.
@@ -142,6 +165,8 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Distribuir a los miembros del equipo de desarrollo en las herramientas que conocen mejor.
  \item Decidir con anticipación las tecnologías que se van a utilizar para facilitar la integración
 \end{itemize}
+
+\newpage
 \paragraph{Contingencia:}
 \begin{itemize}
 \item Que uno de los integrantes tenga los suficientes conocimientos técnicos para asesorar a los compañeros si fuera necesario.\\
@@ -150,7 +175,6 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 {\bf RI-7 Planificación demasiado optimista}
 \paragraph{Condición:}  Detección de errores en la elaboración del cronograma de actividades.
 \paragraph{Consecuencia:} El proyecto puede sufrir retrasos,  cuanto más avanzado sea el análisis y desarrollo del mismo más complicado será realizar cambios en la distribución de tiempos y actividades.
-\newpage
 \paragraph{Efecto:} Necesidad de prorrogas de tiempo, no obtener el resultado programado inicialmente en cuanto al producto final.
 \paragraph{Prevención:}
 \begin{itemize}
@@ -163,6 +187,7 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \paragraph{Contingencia:}
 \begin{itemize}
 \item Disparador: Detección de errores en la planeación, se presenta principalmente cuando se tienen los tiempo limitados.
+\newpage
 \item Reconsiderar actividades secundarias en el cronograma para otorgar más tiempo a las de mayor prioridad.\\
 \end{itemize} 
 
@@ -184,13 +209,13 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \paragraph{Contingencia:}
 \begin{itemize}
 \item Disparador: Detección de notables diferencias entre el diseño y la implementación del sistema.
+\newpage
 \item Actualizar la documentación para que la implementación y el diseño sean consistentes con los cambios menores en cada componente de impacto exclusivo en el mismo \\
 \end{itemize}
 
 {\bf RI-9 Ausencia de miembros del equipo de trabajo}
 \paragraph{Condición:}  Alguno de los miembros de un equipo de trabajo se ausenta o bien no cumple con las tareas previstas.
 \paragraph{Consecuencia:} Necesidad de delegar responsabilidades, volviendo a hacer una restructuración para cubrir con las actividades que este integrante no podrá realizar.
-\newpage 
 \paragraph{Prevención:}
 \begin{itemize}
 \item Todos los integrantes de cada uno de los equipos de trabajo debe tener conocimiento sobre el desarrollo del proyecto en cada una de sus etapas.
@@ -206,6 +231,7 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item  Reorganizar a los integrantes para que puedan terminar las tareas pendientes.\\
 \end{itemize}
 
+\newpage
 {\bf RI-10  Diseño inadecuado}
 \paragraph{Condición:} Detección de deficiencias en el diseño del sistema.
 \paragraph{Consecuencia:} Necesidad de replanteo sobre los estándares que se seguirán en el diseño, haciendo ajustes y por tanto una pérdida o retrasos en el tiempo.
@@ -227,6 +253,7 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item  Mostrar un diseño funcional y agradable, a pesar de no ser el esperado.\\
 \end{itemize}  
 
+\newpage
 {\bf RI-11 Falta de disponibilidad de los integrantes del  equipo}
 \paragraph{Condición:} Los integrantes del equipo no tienen tiempo para desarrollar el proyecto debido a tareas o proyectos.
 \paragraph{Consecuencia:} El proyecto puede tener retardos en entregas estipuladas con el cliente.
@@ -237,7 +264,6 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \paragraph{Minimización:}
 \begin{itemize}
 \item Estar en constante comunicación e informando a los integrantes del equipo de trabajo de “qué” y “cómo” se está realizando los avances del proyecto y/o entregables, y así poder ayudar en caso de algún problema con algún integrante.
-\newpage
 \item  Tener siempre respaldos de lo que se trabaja tanto colectivamente como individualmente, así como mantener informado por lo menos al equipo con el que se esté trabajando, de todo lo que se realiza individualmente.
 \end{itemize}
 \paragraph{Contingencia:}
@@ -246,3 +272,4 @@ RI-11 & Todos los equipos & Falta de disponibilidad de los integrantes del  equi
 \item Planear con carácter de urgente una junta con la finalidad de reforzar los roles en el trabajo en equipo, o bien realizar la mínima reestructuración posible al cronograma de actividades.
 \\
 \end{itemize}
+\newpage
