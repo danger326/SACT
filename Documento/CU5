@@ -1,0 +1,55 @@
+\newpage
+\subsection{CU5: Elegir impacto de tiro }
+\subsubsection{Resumen}
+Permite al usuario observador seleccionar la simulación de impacto de tiro sobre la imagen con la malla.
+
+\subsubsection{Descripción de caso de uso}
+
+\textbf{Descripción}
+\begin{table}[ht]
+\centering % used for centering table
+\resizebox{16cm}{!} {
+\begin{tabular}{| l |  p{12cm} |} % centered columns (2 columns)
+
+\hline Autor: & Camarillo Hernández Erik Alberto \\ 
+\hline Revisó: & Cruces Caballero Saúl David \\  
+\hline Actor(es): & Observador \\
+\hline Propósito: & Permitir la selección del impacto de tiro. \\
+\hline Entradas: & Pixel seleccionado por el usuario observador. \\
+\hline Salidas: & Waypoint alrededor del pixel seleccionado por el usuario observador. \\
+\hline Precondiciones : & - .\\
+\hline Postcondiciones: & Se visualizará sobre la imagen el waypoint indicando el impacto de tiro.\\
+\hline Errores: & Se mostrará en la pantalla el mensaje \textbf{MSG\# Selección de impacto no valido} cuando el usuario observador elija un sitio en la imagen la cuál no puede ser impactado (cielo).  \\
+\hline Tipo: & Primario\\
+
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Descripción de CU5. \label{tabla}}
+\end{table}
+
+\subsubsection{Trayectorias principales y alternativas}
+
+\textbf{Trayectoria Principal}\\
+\begin{enumerate}
+\item \miniactor Llega a este caso al haber dado click al botón \textbf{Elegir impacto de tiro} en el menú lateral de la pantalla \textbf{P00}.
+\item \minicaso Muestra el mensaje \textbf{MSG\# Seleccione impacto de tiro.}.
+\item \miniactor Selecciona sobre la imagen la ubicación de la simulación del impacto en la pantalla \textbf{P00}. -- (Trayectoria A)
+\newpage
+\item \minicaso Obtiene los datos del pixel seleccionado.
+\item \minicaso Realiza conversión pixel - coordenadas para obtener los datos reales de la ubicación del tiro simulado.
+\item \minicaso Muestra sobre la imagen en la pantalla \textbf{P00} el waypoint de la ubicación del impacto simulado.
+\end{enumerate}
+
+{\it --- Fin del caso de uso. ---}\\
+
+\textbf{Trayectoria alternativa A}\\
+\textit{Condición: El usuario observador selecciona una parte de la imagen que no puede ser impactada (cielo).}\\
+A-1 \miniactor Selecciona una parte de la imagen que no puede ser impactada en la pantalla \textbf{P00} \\
+A-2 \minicaso Muestra el mensaje \textbf{MSG\# Ubicación erronea}.\\
+A-3 \minicaso Continua con el paso 3 de la trayectoria principal.\\
+{\it --- Fin de la trayectoria. ---}\\
+
+
+\subsubsection{Diagrama de secuencia}
+\subsubsection{Diagrama de actividad}
