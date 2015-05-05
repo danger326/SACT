@@ -20,12 +20,11 @@ Permite al usuario observador seleccionar alguna de las opciones posibles: Ajust
 \hline Postcondiciones: & -\\
 \hline Errores: & - \\
 \hline Tipo: & Primario\\
-\hline %inserts single line
 
 \hline %inserts single line
 \end{tabular}
 }
-\caption{Descripción de CU1. \label{tabla}}
+\caption{Descripción de CU4. \label{tabla}}
 \end{table}
 
 \subsubsection{Trayectorias principales y alternativas}
