@@ -95,6 +95,8 @@ El sistema se programó utilizando el paradigma orientado a objetos, por lo que 
 \end{itemize}
 
 \newpage
-\input{./Segunda_Parte/DS/CU1}
+\input{./Segunda_Parte/DS/CU4}
+\input{./Segunda_Parte/DS/CU5}
+\input{./Segunda_Parte/DS/CU6}
 
 \section{Diagrama de Clases}
