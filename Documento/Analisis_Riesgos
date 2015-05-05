@@ -48,7 +48,7 @@ RI-12 & Análisis & Señal insuficiente para la comunicación del sistema & Medi
 \\[0.2cm]
 RI-13 & Análisis & Daño de la cámara wifi por cualquier causa & Baja & 5\% & Crítico \\
 \\[0.2cm]
-RI-14 & Desarrollo y pruebas & Actividad climatológica no es la adecuada & Media & 50\% & Marginal \\
+RI-14 & Desarrollo y pruebas & La actividad climatológica no es la adecuada & Media & 50\% & Marginal \\
 \\[0.2cm]
 RI-15 & Pruebas & El usuario no ajuste bien la malla & Media & 50\% & Catastrófico \\
 
@@ -272,4 +272,82 @@ RI-15 & Pruebas & El usuario no ajuste bien la malla & Media & 50\% & Catastróf
 \item Planear con carácter de urgente una junta con la finalidad de reforzar los roles en el trabajo en equipo, o bien realizar la mínima reestructuración posible al cronograma de actividades.
 \\
 \end{itemize}
+
+{\bf RI-12 Señal insuficiente para la comunicación del sistema}
+\paragraph{Condición:} Por motivos fuera de nuestras manos la señal de wifi esta caída o es muy muy baja.
+\newpage
+\paragraph{Consecuencia:} No permite la comunicación entre la tablet y la cámara o la tablet y central de cálculos.
+\paragraph{Prevención:}
+\begin{itemize}
+\item El dispositivo que se vaya a utilizar como access point probarlo y manter privado el acceso de tal manera que solo sea para el uso del sistema.
+\end{itemize}
+\paragraph{Minimización:}
+\begin{itemize}
+\item Estar cambiando la contraseña cada cierto periodo de tiempo para evitar la disminución de señal.
+\item  Tener uno o varios access point de respaldo para el uso del sistema.
+\end{itemize}
+\paragraph{Contingencia:}
+\begin{itemize}
+\item Disparador: No se logra tener comunicación con la cámara ni con la central de cálculos.
+\item Configurar el sistema para acceda a uno de los access point que se tienen como respaldo.
+\\
+\end{itemize}
+
+{\bf RI-13 Daño de la cámara wifi por cualquier causa}
+\paragraph{Condición:} No existe respuesta de la cámara wifi, ya siendo confirmado que el sistema del observador y la tablet funcionan correctamente y existe suficiente señal para la comunicación entre los dos dispositivos.
+\paragraph{Consecuencia:} El proyecto puede tener retardos en entregas estipuladas con el cliente por cuestiones económicas para conseguir una nueva cámara wifi.
+\paragraph{Prevención:}
+\begin{itemize}
+\item Realizar un chequeo de mantenimiento sobre la cámara wifi durante cierto periodo de tiempo para detectar posibles correcciones sobre la misma o en su defecto cambiar la actual cámara por una nueva.
+\newpage
+\item Poner protecciones sobre la cámara para evitar posibles deterioros o accidentes con la misma.
+\end{itemize}
+\paragraph{Minimización:}
+\begin{itemize}
+\item Tener refacciones de las partes reparables de la cámara wifi.
+\end{itemize}
+\paragraph{Contingencia:}
+\begin{itemize}
+\item Disparador: La cámara wifi no regresa la imagen al sistema del observador.
+\item Remplazar la cámara wifi por una nueva.
+\\
+\end{itemize}
+
+{\bf RI-14 La actividad climatológica no es la adecuada}
+\paragraph{Condición:} El clima no es adecuado para la captura de la image, es decir, puede provocar errores en los resultados o no permite hacer la actividad como se desea.
+\paragraph{Consecuencia:} El ejercicio con el sistema se tiene que posponer el tiempo suficiente para que el clima sea el adecuado.
+\paragraph{Prevención:}
+\begin{itemize}
+\item Esta situación no se puede prevenir del todo ya que no hay medio posible para evitar las condiciones del clima no deseadas.
+\end{itemize}
+\paragraph{Minimización:}
+\begin{itemize}
+\item Proponer el día de el uso del sistema con el clima ideal teniendo en cuenta las probabilidades meteorológicas de cualquier medio de comunicación masivo.
+\end{itemize}
+\paragraph{Contingencia:}
+\begin{itemize}
+\item Disparador: El clima es lluvioso, por lo cual la imagen es borrosa.
+\item Posponer el uso del sistema hasta que el clima mejore.
+\\
+\end{itemize}
+
+\newpage
+{\bf RI-15 El usuario no ajuste bien la malla}
+\paragraph{Condición:} El usuario observador permita una mala sincronización entre la malla y la imagen.
+\paragraph{Consecuencia:} Los datos no serán correctos.
+\paragraph{Prevención:}
+\begin{itemize}
+\item Mostrar un mensaje al usuario observador pidiendole que se serciore de que la maya y la imagen estén correctamente sincronizados.
+\end{itemize}
+\paragraph{Minimización:}
+\begin{itemize}
+\item -
+\end{itemize}
+\paragraph{Contingencia:}
+\begin{itemize}
+\item Disparador: El usuario observador permitió que la malla esté desfazada con la imagen.
+\item Mostrarle un mensaje al usuario observador pidiendole que verifique que la malla se haya sincronizado correctamente y enfatizarle que al existir error de sincronización los datos serán erroneos.
+\\
+\end{itemize}
+
 \newpage
