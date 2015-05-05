@@ -1,0 +1,51 @@
+\newpage
+\subsection{CU6: Cálculo de error }
+\subsubsection{Resumen}
+El sistema del observador realiza los cálculos pertinentes, teniendo en cuenta que ya se tienen los datos necesarios (ubicación de impacto simulado y objetivo), al error proveniente del impacato simulado con respecto al objetivo.
+
+\subsubsection{Descripción de caso de uso}
+
+\textbf{Descripción}
+\begin{table}[ht]
+\centering % used for centering table
+\resizebox{16cm}{!} {
+\begin{tabular}{| l |  p{12cm} |} % centered columns (2 columns)
+
+\hline Autor: & Camarillo Hernández Erik Alberto \\ 
+\hline Revisó: & Cruces Caballero Saúl David \\  
+\hline Actor(es): & Observador \\
+\hline Propósito: & Realiza el cálculo del error entre el impacto del tiro simulado y el objetivo. \\
+\hline Entradas: & - . \\
+\hline Salidas: & Resultados del cálculo del error entre el impacto del tiro simulado y el objetivo a través de realidad aumentada. \\
+\hline Precondiciones : & Se tiene ya las coordenadas del impacto simulado y del objetivo.\\
+\hline Postcondiciones: & Se visualizará sobre la imagen el resultado de los cálculos.\\
+\hline Errores: & Se mostrará en la pantalla el mensaje \textbf{MSG\# No se puede realizar cálculo} cuando el sistema del observador carezca de los datos del impacto de tiro simulado o del objetivo o ambos.  \\
+\hline Tipo: & Primario\\
+
+\hline %inserts single line
+\end{tabular}
+}
+\caption{Descripción de CU6. \label{tabla}}
+\end{table}
+
+\subsubsection{Trayectorias principales y alternativas}
+
+\textbf{Trayectoria Principal}\\
+\begin{enumerate}
+\item \miniactor Llega a este caso al haber dado click al botón \textbf{Cálculo del error} en el menú lateral de la pantalla \textbf{P00}. -- (Trayectoria A)
+\item \minicaso Realiza los cálculos del error del impacto simulado con respecto al objetivo.
+\newpage
+\item \minicaso Muestra sobre la imagen en la pantalla \textbf{P00} los resultados del error por medio de la realidad aumentada.
+\end{enumerate}
+
+{\it --- Fin del caso de uso. ---}\\
+
+\textbf{Trayectoria alternativa A}\\
+\textit{Condición: El sistema del observador carece de los datos del impacto de tiro simulado o del objetivo o ambos.}\\
+A-1 \minicaso Muestra el mensaje \textbf{MSG\# No se puede realizar cálculo}. \\
+
+{\it --- Fin del caso de uso. ---}\\
+
+
+\subsubsection{Diagrama de secuencia}
+\subsubsection{Diagrama de actividad}
